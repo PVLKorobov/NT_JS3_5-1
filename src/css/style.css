@@ -1,3 +1,58 @@
 body {
     color: #999;
 }
+
+.contents__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contents__left__wrapper, .contents__center__wrapper, .contents__right__wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 300px;
+}
+
+.tooltip-button {
+    height: 40px;
+    width: 200px;
+    background-color: rgba(231, 101, 69, 0.603);
+    border-radius: 7px;
+}
+
+.netology-img {
+    height: 300px;
+}
+
+.SQUARE {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+.tooltip__wrapper {
+    display: none;
+    position: absolute;
+    background-color: rgb(160, 160, 160);
+    border: 2px solid rgb(104, 104, 104);
+    border-radius: 1vh;
+    color: white;
+    max-width: 300px;
+}
+
+.tooltip__wrapper .tooltip__title__wrapper {
+    font-size: 14px;
+    border-bottom: 2px solid rgb(104, 104, 104);
+}
+
+.tooltip__wrapper .tooltip__text__wrapper .tooltip__text {
+    font-size: 14px;
+}
+
+.tooltip__wrapper .tooltip__title, .tooltip__wrapper .tooltip__text {
+    margin: 4px;
+}
